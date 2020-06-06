@@ -6,7 +6,7 @@ class App < Sinatra::Base
   end
 
   get '/team' do
-    
+
   end
 
 end
