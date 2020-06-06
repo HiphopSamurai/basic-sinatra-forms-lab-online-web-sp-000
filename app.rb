@@ -13,6 +13,8 @@ class App < Sinatra::Base
     @small_forward = params["sf"]
     @power_forward = params["pf"]
     @center = params["c"]
+
+    erb :team
   end
 
   get '/team' do
